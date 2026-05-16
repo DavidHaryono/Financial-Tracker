@@ -19,8 +19,8 @@ Before you begin, make sure you have the following installed on your system:
 Open your terminal and run:
 
 ```bash
-git clone https://github.com/minicil625/Laravel-Project.git
-cd Laravel-Project
+git clone https://github.com/DavidHaryono/Financial-Tracker.git
+cd Financial-Tracker
 ```
 
 ### 2. Install PHP Dependencies
