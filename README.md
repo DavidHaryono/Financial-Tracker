@@ -220,3 +220,35 @@ Laravel-Project/
 └── tests/            # Automated tests
 ```
 
+## Team & Acknowledgments
+
+This project was developed as a collaborative effort. Massive thanks to the team members who built this:
+
+## 👥 Engineering Team & Core Contributions
+
+This platform was developed as a collaborative full-stack engineering project. The technical responsibilities and architectural components were divided as follows:
+
+### Frontend Engineering
+
+* **David Alexander Haryono**
+  * Architected the core user interface layouts utilizing **Blade template component inheritance** (`layouts.app`) to establish globally unified responsive UI viewports.
+  * Engineered state-driven frontend modal components and dynamic interactive forms for managing complex database requests across `expenses.index`, `expenses.create`, and `expenses.edit` view modules.
+  * Integrated multi-language display controls leveraging custom dynamic locale injection mappings into template string fields.
+
+* **Diven Dechal Jatiputra**
+  * Built client-side input validation architectures and unified asset compilation using **Vite** runtime orchestration pipelines (`vite.config.js`).
+  * Optimized responsive asset behavior and visual rendering pipelines utilizing customized utility classes across user profile controls and authentication portals.
+  * Managed responsive form styling layout breakpoints to ensure cross-device consistency during asynchronous transaction submissions.
+
+### Backend & Systems Architecture
+
+* **Benediktus Darmawan**
+  * Constructed the core relational schema foundation, engineering sequential **Laravel Migration tables** managing primary relationships (`users`, `expenses`, `cache`, and secure system session token distributions).
+  * Developed the multi-lingual middleware routing pipeline (`LocaleMiddleware`), intercepting inbound client traffic to dynamically map matching system data translation properties.
+  * Programmed programmatic security restrictions through active authentication routing rules and custom state verification handlers (`CheckSession`).
+
+* **Kneson Surya Wijaya**
+  * Developed robust application runtime microservices, engineering the file-stream processing architecture inside the abstract **Receipt Parser Service Engine** (`ReceiptParserService`).
+  * Implemented database interaction layers using **Eloquent ORM models** (`User`, `Expense`), mapping transactional mass-assignment configurations, structural database seeding routines, and user profiling query filters.
+  * Maintained backend platform test integrity using automated feature testing blueprints (`Feature/ExampleTest`, `TestCase`) to secure model validation pipelines.
+
